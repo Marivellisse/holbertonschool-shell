@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -new 'print if (++$x)%2'
+perl -ne 'print if $. % 2 == 1'
